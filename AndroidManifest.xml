@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.crazyapps.campusbuzz"
+    android:versionCode="7"
+    android:versionName="1.7" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="21" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:enabled="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="adjustPan|adjustResize" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity2"
+            android:label="@string/title_activity_main_activity2"
+            android:windowSoftInputMode="adjustPan|adjustResize" >
+        </activity>
+        <activity
+            android:name=".Activity3"
+            android:label="@string/title_activity_activity3"
+            android:windowSoftInputMode="adjustPan|adjustResize" >
+        </activity>
+        <activity
+            android:name=".Activity4"
+            android:label="@string/title_activity_activity4" >
+        </activity>
+        <activity
+            android:name=".Activity5"
+            android:label="@string/title_activity_activity5" >
+        </activity>
+        <activity
+            android:name=".Activity6"
+            android:label="@string/title_activity_activity6" >
+        </activity>
+    </application>
+
+</manifest>
